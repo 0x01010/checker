@@ -22,22 +22,22 @@ jobs:
       with:
         target: 'https://www.antitusif.com/'
         
-    - name: ZAP Scan - eksi
-      uses: zaproxy/action-full-scan@v0.1.0
-      with:
-        target: 'https://www.eksisozluk.com/'
+#     - name: ZAP Scan - eksi
+#       uses: zaproxy/action-full-scan@v0.1.0
+#       with:
+#         target: 'https://www.eksisozluk.com/'
 
     
-    - name: ZAP Scan - 
-      uses: zaproxy/action-full-scan@v0.1.0
-      with:
-        target: 'https://www.ibb.istanbul/'
+#     - name: ZAP Scan - 
+#       uses: zaproxy/action-full-scan@v0.1.0
+#       with:
+#         target: 'https://www.ibb.istanbul/'
  
  
-    - name: ZAP Scan -gezgin
-      uses: zaproxy/action-full-scan@v0.1.0
-      with:
-        target: 'https://www.gezginsozluk.org/'
+#     - name: ZAP Scan -gezgin
+#       uses: zaproxy/action-full-scan@v0.1.0
+#       with:
+#         target: 'https://www.gezginsozluk.org/'
  
 
 
